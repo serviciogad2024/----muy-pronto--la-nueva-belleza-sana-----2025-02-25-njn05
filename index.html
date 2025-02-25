@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="es" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Nueva Belleza Sana | Cuidado Natural</title>
     <meta name="description" content="Descubre el poder de la belleza natural y el bienestar con nuestros productos 100% naturales">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="font-sans antialiased bg-white text-gray-900">
-    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50" x-data="{ isOpen: false }">
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-emerald-600">Belleza Sana</a>
+                <a href="https://serviciogad2024.github.io/----muy-pronto--la-nueva-belleza-sana-----2025-02-25-njn05" class="text-2xl font-bold text-emerald-600 hover:text-emerald-700 transition-colors duration-300">Belleza Sana</a>
                 
-                <button @click="isOpen = !isOpen" class="md:hidden focus:outline-none">
-                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden focus:outline-none" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
 
                 <div class="hidden md:flex space-x-8">
                     <a href="#caracteristicas" class="text-gray-600 hover:text-emerald-600 transition-colors duration-300">Características</a>
                     <a href="#beneficios" class="text-gray-600 hover:text-emerald-600 transition-colors duration-300">Beneficios</a>
+                    <a href="#testimonios" class="text-gray-600 hover:text-emerald-600 transition-colors duration-300">Testimonios</a>
+                    <a href="#about" class="text-gray-600 hover:text-emerald-600 transition-colors duration-300">Sobre Nosotros</a>
                     <a href="#faq" class="text-gray-600 hover:text-emerald-600 transition-colors duration-300">FAQ</a>
                     <a href="#contacto" class="text-gray-600 hover:text-emerald-600 transition-colors duration-300">Contacto</a>
                 </div>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+                <a href="#caracteristicas" class="block px-4 py-2 text-gray-600 hover:bg-emerald-50 hover:text-emerald-600 transition-colors duration-300">Características</a>
+                <a href="#beneficios" class="block px-4 py-2 text-gray-600 hover:bg-emerald-50 hover:text-emerald-600 transition-colors duration-300">Beneficios</a>
+                <a href="#testimonios" class="block px-4 py-2 text-gray-600 hover:bg-emerald-50 hover:text-emerald-600 transition-colors duration-300">Testimonios</a>
+                <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-emerald-50 hover:text-emerald-600 transition-colors duration-300">Sobre Nosotros</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-600 hover:bg-emerald-50 hover:text-emerald-600 transition-colors duration-300">FAQ</a>
+                <a href="#contacto" class="block px-4 py-2 text-gray-600 hover:bg-emerald-50 hover:text-emerald-600 transition-colors duration-300">Contacto</a>
             </div>
         </nav>
     </header>
@@ -39,10 +57,10 @@
                         Muy Pronto: La Nueva Belleza Sana 🌿
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
-                        Belleza Natural y Bienestar, Redefiniendo tu Cuidado 🌿
+                        Descubre una nueva era en el cuidado personal con productos que fusionan la sabiduría ancestral y la ciencia moderna para una belleza verdaderamente natural y duradera.
                     </p>
                     <a href="https://bellezasana.website" class="inline-block bg-emerald-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-emerald-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                        Descubre Más
+                        Descubre la Nueva Belleza Natural
                     </a>
                 </div>
             </div>
@@ -51,36 +69,36 @@
         <!-- Features Section -->
         <section id="caracteristicas" class="py-24 px-6 bg-white">
             <div class="container mx-auto max-w-7xl">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Características Principales</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Características Revolucionarias</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="h-16 w-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <svg class="h-8 w-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold text-center mb-4">Belleza 100% Natural</h3>
-                        <p class="text-gray-600 text-center">Productos elaborados exclusivamente con ingredientes naturales y orgánicos.</p>
+                        <h3 class="text-xl font-semibold text-center mb-4">Formulación Premium Natural</h3>
+                        <p class="text-gray-600 text-center">Ingredientes orgánicos certificados y extractos botánicos puros que nutren tu piel en profundidad. Cada producto está formulado con más del 95% de componentes naturales.</p>
                     </div>
 
-                    <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="h-16 w-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <svg class="h-8 w-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold text-center mb-4">Cuidado sin Químicos</h3>
-                        <p class="text-gray-600 text-center">Fórmulas libres de químicos nocivos para tu piel y el medio ambiente.</p>
+                        <h3 class="text-xl font-semibold text-center mb-4">Tecnología Verde Avanzada</h3>
+                        <p class="text-gray-600 text-center">Procesos de extracción sostenibles y tecnología de microencapsulación que maximiza la eficacia de los ingredientes activos naturales sin comprometer el medio ambiente.</p>
                     </div>
 
-                    <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="h-16 w-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <svg class="h-8 w-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold text-center mb-4">Consejos Expertos</h3>
-                        <p class="text-gray-600 text-center">Asesoramiento profesional para optimizar tu rutina de cuidado.</p>
+                        <h3 class="text-xl font-semibold text-center mb-4">Asesoramiento Personalizado</h3>
+                        <p class="text-gray-600 text-center">Acceso exclusivo a expertos en dermatología natural y wellness coaches que crearán un plan personalizado para optimizar tus resultados.</p>
                     </div>
                 </div>
             </div>
@@ -89,22 +107,89 @@
         <!-- Benefits Section -->
         <section id="beneficios" class="py-24 px-6 bg-emerald-50">
             <div class="container mx-auto max-w-7xl">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Beneficios</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Beneficios Transformadores</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                     <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Piel más Saludable</h3>
-                        <p class="text-gray-600">Mejora visible en la salud y apariencia de tu piel desde el primer uso.</p>
+                        <h3 class="text-xl font-semibold mb-4">Regeneración Celular Avanzada</h3>
+                        <p class="text-gray-600">Activa la producción natural de colágeno y elastina, logrando una reducción visible de líneas finas en solo 4 semanas de uso continuo.</p>
                     </div>
 
                     <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Belleza sin Químicos</h3>
-                        <p class="text-gray-600">Productos seguros que respetan el equilibrio natural de tu piel.</p>
+                        <h3 class="text-xl font-semibold mb-4">Protección Antioxidante Superior</h3>
+                        <p class="text-gray-600">Barrera protectora natural que combate el 99% de los radicales libres, previniendo el envejecimiento prematuro y el daño ambiental.</p>
                     </div>
 
                     <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Resultados Visibles</h3>
-                        <p class="text-gray-600">Transformación notable en la textura y luminosidad de tu piel.</p>
+                        <h3 class="text-xl font-semibold mb-4">Hidratación Inteligente 24/7</h3>
+                        <p class="text-gray-600">Sistema de hidratación multinivel que mantiene niveles óptimos de humedad durante todo el día, adaptándose a las necesidades de tu piel.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonios" class="py-24 px-6 bg-white">
+            <div class="container mx-auto max-w-7xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Lo Que Dicen Nuestros Clientes</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-emerald-500 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-600 mb-4">"Después de 3 meses usando estos productos, mi piel luce radiante y saludable. La diferencia es notable, especialmente en la textura y luminosidad."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">María González</p>
+                            <p class="text-sm text-gray-500">Profesora de Yoga</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-emerald-500 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-600 mb-4">"Increíble cómo productos 100% naturales pueden ser tan efectivos. Mi piel sensible finalmente encontró su match perfecto."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Ana Martínez</p>
+                            <p class="text-sm text-gray-500">Dermatóloga</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-emerald-500 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-600 mb-4">"El servicio de asesoramiento personalizado marca la diferencia. Los resultados superaron mis expectativas."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Carmen Rodríguez</p>
+                            <p class="text-sm text-gray-500">Influencer de Belleza</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-emerald-500 mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-gray-600 mb-4">"Por fin encontré productos que realmente cumplen lo que prometen. Mi piel nunca había estado mejor."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Laura Sánchez</p>
+                            <p class="text-sm text-gray-500">Empresaria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-24 px-6 bg-emerald-50">
+            <div class="container mx-auto max-w-7xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Sobre Nosotros</h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Fundada en 2020 por un equipo de expertos en dermatología y biotecnología natural, Belleza Sana nació de la visión de revolucionar la industria cosmética con productos verdaderamente naturales y efectivos. Nuestra journey comenzó en un pequeño laboratorio, investigando los secretos de los ingredientes botánicos más puros y potentes del mundo.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Nuestra misión es empoderar a las personas para que alcancen su máximo potencial de belleza natural, sin comprometer su salud ni el medio ambiente. Nos guiamos por valores fundamentales de transparencia, sostenibilidad y eficacia comprobada, trabajando incansablemente para crear productos que no solo embellecen, sino que verdaderamente transforman la salud de la piel.
+                    </p>
                 </div>
             </div>
         </section>
@@ -116,13 +201,61 @@
                 <div class="space-y-4">
                     <div class="border border-gray-200 rounded-lg">
                         <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
-                            <span class="font-semibold">¿Qué hace diferentes a nuestros productos?</span>
+                            <span class="font-semibold">¿Qué hace que nuestros productos sean únicos?</span>
                             <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 1}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
                         <div x-show="selected == 1" class="p-6 pt-0" x-transition>
-                            <p class="text-gray-600">Nuestros productos son 100% naturales, elaborados con ingredientes orgánicos certificados y libres de químicos nocivos.</p>
+                            <p class="text-gray-600">Nuestra línea combina ingredientes orgánicos certificados con tecnología de microencapsulación avanzada, garantizando una absorción óptima y resultados visibles en tiempo récord.</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg">
+                        <button @click="selected !== 2 ? selected = 2 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">¿Cuánto tiempo tarda en verse resultados?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 2}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 2" class="p-6 pt-0" x-transition>
+                            <p class="text-gray-600">La mayoría de nuestros clientes reportan mejoras visibles en su piel después de 2-4 semanas de uso consistente, con resultados óptimos alcanzados en 12 semanas.</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg">
+                        <button @click="selected !== 3 ? selected = 3 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">¿Son seguros para pieles sensibles?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 3}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 3" class="p-6 pt-0" x-transition>
+                            <p class="text-gray-600">Sí, todos nuestros productos están dermatológicamente testados y son hipoalergénicos, ideales para todo tipo de piel, incluyendo las más sensibles.</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg">
+                        <button @click="selected !== 4 ? selected = 4 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">¿Cómo funciona el asesoramiento personalizado?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 4}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 4" class="p-6 pt-0" x-transition>
+                            <p class="text-gray-600">Nuestros expertos realizan una evaluación detallada de tu piel y objetivos para crear un plan personalizado, con seguimiento continuo y ajustes según tus resultados.</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg">
+                        <button @click="selected !== 5 ? selected = 5 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">¿Tienen garantía de satisfacción?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 5}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 5" class="p-6 pt-0" x-transition>
+                            <p class="text-gray-600">Sí, ofrecemos una garantía de satisfacción de 60 días. Si no estás completamente satisfecha con los resultados, te devolvemos tu dinero sin preguntas.</p>
                         </div>
                     </div>
                 </div>
@@ -130,12 +263,12 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="py-24 px-6 bg-emerald-600 text-white">
-            <div class="container mx-auto max-w-7xl text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">¿Lista para transformar tu rutina de belleza?</h2>
-                <p class="text-xl mb-12 max-w-2xl mx-auto">Únete a la revolución de la belleza natural y descubre el poder de los ingredientes puros.</p>
+        <section class="py-24 px-6 bg-emerald-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
+            <div class="container mx-auto max-w-7xl text-center bg-black/50 p-12 rounded-xl backdrop-blur-sm">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">¿Lista para Transformar tu Rutina de Belleza?</h2>
+                <p class="text-xl mb-12 max-w-2xl mx-auto">Únete a miles de personas que ya han descubierto el poder de la belleza verdaderamente natural. ¡Reserva tu lugar ahora y obtén un 20% de descuento en tu primera compra!</p>
                 <a href="https://bellezasana.website" class="inline-block bg-white text-emerald-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                    Reserva tu Lugar
+                    Comienza Tu Transformación
                 </a>
             </div>
         </section>
@@ -146,7 +279,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Belleza Sana</h3>
-                    <p class="text-gray-400">Transformando la belleza natural.</p>
+                    <p class="text-gray-400">Transformando la belleza natural desde 2020.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contacto</h4>
@@ -157,19 +290,21 @@
                     </p>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Enlaces</h4>
+                    <h4 class="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Inicio</a></li>
                         <li><a href="#caracteristicas" class="text-gray-400 hover:text-white transition-colors duration-300">Características</a></li>
                         <li><a href="#beneficios" class="text-gray-400 hover:text-white transition-colors duration-300">Beneficios</a></li>
+                        <li><a href="#testimonios" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonios</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">Sobre Nosotros</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Política de Privacidad</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Términos de Uso</a></li>
+                        <li><a href="https://serviciogad2024.github.io/----muy-pronto--la-nueva-belleza-sana-----2025-02-25-njn05/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Política de Privacidad</a></li>
+                        <li><a href="https://serviciogad2024.github.io/----muy-pronto--la-nueva-belleza-sana-----2025-02-25-njn05/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Términos de Uso</a></li>
+                        <li><a href="https://serviciogad2024.github.io/----muy-pronto--la-nueva-belleza-sana-----2025-02-25-njn05/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -178,5 +313,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
